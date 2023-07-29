@@ -1,8 +1,8 @@
 const Home = () => {
    return (
-      <div>
+      <section className="flex-start flex-col paddings mb-16">
          Home
-      </div>
+      </section>
    )
 }
 
