@@ -15,7 +15,7 @@ const Project = g.model('Project', {
   description: g.string(),
   image: g.url(),
   liveSiteUrl: g.url().optional(),
-  githubUrl: g.url(),
+  githubUrl: g.url().optional(),
   category: g.string().search(),
   createdBy: g.relation(() => User),
 })
